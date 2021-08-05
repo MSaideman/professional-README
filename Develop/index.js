@@ -17,7 +17,7 @@ const question = [
     },
     {
     type: 'input',
-    name: 'project-name',
+    name: 'projectName',
     message:"What is your project's name?"
     },
     {
