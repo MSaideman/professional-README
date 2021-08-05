@@ -61,19 +61,18 @@ const questions = [
     },
     ]
 
+    // Create a function to initialize app
+function init() {
     inquirer
     .prompt(questions)
     .then((data) => {
         let dataObj = data;
         console.log(dataObj);
-        dataObj = generateMarkdown(dataObj);
         // Create a function to write README file
-        fs.writeFile('README.md', dataObj); 
+        fs.writeFile('README.md', generateMarkdown(dataObj), (err) =>
+        err ? console.error(err) : console.log('you have successfully saved the info!')); 
     });
-
-
-// TODO: Create a function to initialize app
-function init() {}
+    }
 
 // Function call to initialize app
 init();
