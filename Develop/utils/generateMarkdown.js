@@ -38,6 +38,9 @@ function generateMarkdown(data) {
 
   ## License:
   >${data.license}
+
+  ## Contact Information:
+  >Please email with any questions involving this project at ${data.email}
 `;
 }
 
