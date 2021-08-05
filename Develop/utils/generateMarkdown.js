@@ -12,8 +12,17 @@ function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `#Project Title: ${data.projectName}
+  return `
+  ![GitHub repo size](https://img.shields.io/github/repo-size/${data.username}/)
+  #Project Title: ${data.projectName}
   Description of project goes here: ${data.description}
+  ## Table of Contents:
+  - [title](#title)
+  - [Prerequisites](#Prerequisites)
+  - [Tests](#Tests)
+  - [Contributing](#Contributing)
+  - [Usage](#Usage) 
+  - [License](#License)
 `;
 }
 

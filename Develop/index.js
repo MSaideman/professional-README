@@ -72,7 +72,7 @@ const question = [
 
 
 // TODO: Create a function to write README file
-fs.writeToFile('README.md', (fileName, data) => {
+fs.writeToFile('README.md', data => {
 
 })
 
