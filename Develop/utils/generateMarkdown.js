@@ -23,6 +23,18 @@ function generateMarkdown(data) {
   - [Contributing](#Contributing)
   - [Usage](#Usage) 
   - [License](#License)
+
+  ## Prerequisites:
+  >${data.install}
+  
+  ## Usage:
+  >${data.about}
+
+  ## Tests:
+  >${data.tests}
+
+  ## Contributions:
+  >${data.contribution}
 `;
 }
 
