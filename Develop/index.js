@@ -68,11 +68,9 @@ const questions = [
         console.log(dataObj);
         dataObj = generateMarkdown(dataObj);
         // Create a function to write README file
+        fs.writeFile('README.md', dataObj); 
     });
 
-
-// TODO: Create a function to write README file
-fs.writeFile('README.md', data); 
 
 // TODO: Create a function to initialize app
 function init() {}
