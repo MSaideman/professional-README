@@ -1,4 +1,10 @@
-# 09 Node.js Homework: Professional README Generator
+#Professional README Generator
+
+## Description
+
+An application using node.js to use user input from an inquirer function to autopopulate a professional README.md file for their repository.
+
+## URLs
 
 Deployed URL: https://msaideman.github.io/professional-README/
 GitHub URL: https://github.com/MSaideman/professional-README
@@ -30,3 +36,32 @@ THEN this is added to the section of the README entitled Questions, with instruc
 WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 ```
+
+## Table of Contents
+
+- [title](#title)
+- [Prerequisites](#Prerequisites)
+- [Tests](#Tests)
+- [Contributing](#Contributing)
+- [Usage](#Usage)
+- [License](#License)
+
+## Installation
+
+> npm init
+> npm install inquirer
+> npm i fs
+
+## Usage
+
+Run the following command to initiate the project:
+
+> node index.js
+
+## Contributions
+
+> Mackenzie Saideman
+
+## Contact Information
+
+> Please email me with any questions on this project: mbsaideman@gmail.com
