@@ -5,7 +5,7 @@ function renderLicenseBadge(license) {
   let yourLicense = '';
   if (licenseType === 'MIT') {
     yourLicense = `![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)`
-    console.log(yourLicense);
+    return yourLicense;
   }  else {
     return yourLicense = '';}
   };
@@ -16,8 +16,8 @@ function renderLicenseLink(license) {
   let licenseLink = license;
   let yourLicenseLink = '';
   if(licenseLink === 'MIT') {
-    yourLicenseLink = `https://opensource.org/licenses/MIT${data.license}`
-    console.log(yourLicenseLink);
+    yourLicenseLink = `(https://opensource.org/licenses/MIT)`
+    return yourLicenseLink;
   } else {
   return yourLicenseLink ='';}
 }
@@ -29,7 +29,7 @@ function renderLicenseSection(license) {
   let yourLicenseSection = '';
   if (licenseSection = 'MIT') {
     yourLicenseSection = ``
-    console.log(yourLicenseSection);
+    return yourLicenseSection;
   } else {
     return yourLicenseSection = '';
   }
