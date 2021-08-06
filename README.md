@@ -10,6 +10,10 @@ An application using node.js to use user input from an inquirer function to auto
 [Deployed URL](https://msaideman.github.io/professional-README/)
 [GitHub URL](https://github.com/MSaideman/professional-README)
 
+## Video Tutorial
+
+https://user-images.githubusercontent.com/82477037/128530894-55bcad0a-53e5-47e7-92c9-d68fa0c5e6bd.mp4
+
 ## User Story
 
 ```md
