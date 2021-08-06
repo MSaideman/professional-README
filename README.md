@@ -39,12 +39,16 @@ THEN I am taken to the corresponding section of the README
 
 ## Table of Contents
 
-- [title](#title)
-- [Prerequisites](#Prerequisites)
-- [Tests](#Tests)
-- [Contributing](#Contributing)
+- [Title](#title)
+- [Description](#Description)
+- [URLs](#URLs)
+- [User Story](#UserStory)
+- [Acceptance Criteria](#AcceptanceCriteria)
+- [Installation](#Installation)
 - [Usage](#Usage)
+- [Contributions](#Contributions)
 - [License](#License)
+- [Contact](#Contact)
 
 ## Installation
 
