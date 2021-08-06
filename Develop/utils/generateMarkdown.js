@@ -4,27 +4,27 @@ function renderLicenseBadge(license) {
   let licenseType = license;
   let yourLicense = '';
   if (licenseType === 'MIT') {
-    yourLicense = `![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)`
+    yourLicense = `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]`
     return yourLicense;
   }  else if (licenseType === 'Apache'){
     yourLicense = `[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)]`
     return yourLicense;
-  } else if (licenseLink === 'Academic') {
+  } else if (licenseType === 'Academic') {
     yourLicense = `[![License](https://img.shields.io/badge/License-AFL-blue.svg?style=flat)]`
     return yourLicense;
-  }  else if (licenseLink === 'GNU') {
+  }  else if (licenseType === 'GNU') {
     yourLicense = `[![License: FDL 1.3](https://img.shields.io/badge/License-FDL%20v1.3-blue.svg)]`
     return yourLicense;
   }
-  else if (licenseLink === 'ISC') {
+  else if (licenseType === 'ISC') {
     yourLicense = `[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)]`
     return yourLicense;
   }
-  else if (licenseLink === 'Mozilla') {
+  else if (licenseType === 'Mozilla') {
     yourLicense = `[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)]`
     return yourLicense;
   }
-  else if (licenseLink === 'Open') {
+  else if (licenseType === 'Open') {
     yourLicense = `[![License: Open Data Commons Attribution](https://img.shields.io/badge/License-ODC_BY-brightgreen.svg)]`
     return yourLicense;
   }
