@@ -3,11 +3,12 @@
 ## Description
 
 An application using node.js to use user input from an inquirer function to autopopulate a professional README.md file for their repository.
+[Instructional Video](https://)
 
 ## URLs
 
-Deployed URL: https://msaideman.github.io/professional-README/
-GitHub URL: https://github.com/MSaideman/professional-README
+[Deployed URL](https://msaideman.github.io/professional-README/)
+[GitHub URL](https://github.com/MSaideman/professional-README)
 
 ## User Story
 
