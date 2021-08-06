@@ -6,7 +6,17 @@ function renderLicenseBadge(license) {
   if (licenseType === 'MIT') {
     yourLicense = `![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)`
     return yourLicense;
-  }  else {
+  }  else if (licenseType === 'Apache'){
+    yourLicense = `[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)]`
+    return yourLicense;
+  } else if (licenseLink === 'Academic') {
+    yourLicense = `[![License](https://img.shields.io/badge/License-AFL-blue.svg?style=flat)]`
+    return yourLicense;
+  }  else if (licenseLink === 'GNU') {
+    yourLicense = `[![License: FDL 1.3](https://img.shields.io/badge/License-FDL%20v1.3-blue.svg)]`
+    return yourLicense;
+  }
+  else {
     return yourLicense = '';}
   };
 
@@ -18,7 +28,17 @@ function renderLicenseLink(license) {
   if(licenseLink === 'MIT') {
     yourLicenseLink = `(https://opensource.org/licenses/MIT)`
     return yourLicenseLink;
-  } else {
+  } else if (licenseLink === 'Apache') {
+    yourLicenseLink = `(https://opensource.org/licenses/Apache-2.0)`
+  } else if (licenseLink === 'Academic') {
+    yourLicenseLink = `(https://opensource.org/licenses/AFL-3.0)`
+    return yourLicenseLink;
+  } 
+  else if (licenseLink === 'GNU') {
+    yourLicenseLink = `(https://www.gnu.org/licenses/fdl-1.3)`
+    return yourLicenseLink;
+  } 
+  else {
   return yourLicenseLink ='';}
 }
 
@@ -27,10 +47,15 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   let licenseSection = license;
   let yourLicenseSection = '';
-  if (licenseSection = 'MIT') {
+  if (licenseSection === 'MIT') {
     yourLicenseSection = ``
     return yourLicenseSection;
-  } else {
+  } else if (licenseSection === 'Apache') {
+  } else if(licenseSection === 'Academic') {
+  }
+  else if(licenseSection === 'GNU') {
+  }
+  else {
     return yourLicenseSection = '';
   }
 
