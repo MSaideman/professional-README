@@ -104,8 +104,10 @@ else {
 function generateMarkdown(data) {
 return `
 ![GitHub repo size](https://img.shields.io/github/repo-size/${data.username}/)
+
 #Project Title: ${data.projectName}
 Description of project goes here: ${data.description}
+
 ## Table of Contents:
 - [title](#title)
 - [Prerequisites](#Prerequisites)
@@ -113,20 +115,23 @@ Description of project goes here: ${data.description}
 - [Contributing](#Contributing)
 - [Usage](#Usage) 
 - [License](#License)
+
 ## Prerequisites:
 >${data.install}
 
 ## Usage:
 >${data.about}
+
 ## Tests:
 >${data.tests}
+
 ## Contributions:
 >${data.contribution}
-## License:
+>${renderLicenseSection(data.license)}
 >${data.license}
 >${renderLicenseBadge(data.license)}
 >${renderLicenseLink(data.license)}
->${renderLicenseSection(data.license)}
+
 ## Contact Information:
 >Please email with any questions involving this project at ${data.email}
 `;
