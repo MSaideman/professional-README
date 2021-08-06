@@ -52,9 +52,9 @@ THEN I am taken to the corresponding section of the README
 
 ## Installation
 
-> npm init
-> npm install inquirer
-> npm i fs
+- npm init
+- npm i inquirer
+- npm i fs
 
 ## Usage
 
