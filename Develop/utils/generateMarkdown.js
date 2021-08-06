@@ -127,7 +127,8 @@ Description of project goes here: ${data.description}
 
 ## Contributions:
 >${data.contribution}
->${renderLicenseSection(data.license)}
+
+${renderLicenseSection(data.license)}
 >${data.license}
 >${renderLicenseBadge(data.license)}
 >${renderLicenseLink(data.license)}
