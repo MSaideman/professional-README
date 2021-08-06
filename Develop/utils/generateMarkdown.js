@@ -16,6 +16,10 @@ function renderLicenseBadge(license) {
     yourLicense = `[![License: FDL 1.3](https://img.shields.io/badge/License-FDL%20v1.3-blue.svg)]`
     return yourLicense;
   }
+  else if (licenseLink === 'ISC') {
+    yourLicense = `[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)]`
+    return yourLicense;
+  }
   else {
     return yourLicense = '';}
   };
@@ -38,6 +42,10 @@ function renderLicenseLink(license) {
     yourLicenseLink = `(https://www.gnu.org/licenses/fdl-1.3)`
     return yourLicenseLink;
   } 
+  else if (licenseLink === 'ISC') {
+    yourLicenseLink = `(https://opensource.org/licenses/ISC)`
+    return yourLicenseLink;
+  } 
   else {
   return yourLicenseLink ='';}
 }
@@ -54,6 +62,7 @@ function renderLicenseSection(license) {
   } else if(licenseSection === 'Academic') {
   }
   else if(licenseSection === 'GNU') {
+  } else if(licenseSection === 'ISC') {
   }
   else {
     return yourLicenseSection = '';
