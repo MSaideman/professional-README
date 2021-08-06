@@ -16,7 +16,7 @@ function renderLicenseLink(license) {
   let licenseLink = license;
   let yourLicenseLink = '';
   if(licenseLink === 'MIT') {
-    yourLicenseLink = `https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt`
+    yourLicenseLink = `https://opensource.org/licenses/MIT${data.license}`
     console.log(yourLicenseLink);
   } else {
   return yourLicenseLink ='';}
@@ -27,7 +27,7 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   let licenseSection = license;
   let yourLicenseSection = '';
-  if (licenseSection ==='MIT') {
+  if (licenseSection = 'MIT') {
     yourLicenseSection = ``
     console.log(yourLicenseSection);
   } else {
