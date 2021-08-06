@@ -20,6 +20,14 @@ function renderLicenseBadge(license) {
     yourLicense = `[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)]`
     return yourLicense;
   }
+  else if (licenseLink === 'Mozilla') {
+    yourLicense = `[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)]`
+    return yourLicense;
+  }
+  else if (licenseLink === 'Open') {
+    yourLicense = `[![License: Open Data Commons Attribution](https://img.shields.io/badge/License-ODC_BY-brightgreen.svg)]`
+    return yourLicense;
+  }
   else {
     return yourLicense = '';}
   };
@@ -45,6 +53,12 @@ function renderLicenseLink(license) {
   else if (licenseLink === 'ISC') {
     yourLicenseLink = `(https://opensource.org/licenses/ISC)`
     return yourLicenseLink;
+  }   else if (licenseLink === 'Mozilla') {
+    yourLicenseLink = `(https://opensource.org/licenses/MPL-2.0)`
+    return yourLicenseLink;
+  } else if (licenseLink === 'Open') {
+    yourLicenseLink = `(https://opendatacommons.org/licenses/by/)`
+    return yourLicenseLink;
   } 
   else {
   return yourLicenseLink ='';}
@@ -63,6 +77,10 @@ function renderLicenseSection(license) {
   }
   else if(licenseSection === 'GNU') {
   } else if(licenseSection === 'ISC') {
+  }
+  else if(licenseSection === 'Mozilla') {
+  }
+  else if(licenseSection === 'Open') {
   }
   else {
     return yourLicenseSection = '';
