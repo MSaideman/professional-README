@@ -71,7 +71,7 @@ function init() {
         let dataObj = data;
         console.log(dataObj);
         // Create a function to write README file
-        fs.writeFile('README.md', generateMarkdown(dataObj), (err) =>
+        fs.writeFile('READMEexample.md', generateMarkdown(dataObj), (err) =>
         err ? console.error(err) : console.log('you have successfully saved the info!')); 
     });
     }
