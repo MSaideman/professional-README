@@ -1,4 +1,4 @@
-#Professional README Generator
+## Professional README Generator
 
 ## Description
 
@@ -66,6 +66,10 @@ THEN I am taken to the corresponding section of the README
 Run the following command to initiate the project:
 
 > node index.js
+
+## License
+
+This project is covered under the MIT License.
 
 ## Contributions
 
